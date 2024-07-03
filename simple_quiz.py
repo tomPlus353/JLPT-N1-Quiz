@@ -5,11 +5,6 @@
 ## 3. a. Defines and
 ##    b. Runs quiz method which is made up of question methods.
 ## 4. Each question's pass/fail changes the relevant scoring variable
-## DONE to here
-##
-## TO-DO
-## 1. Save the result back to the shelve data file.
-## 2. Copy Code to a new program which will implement spaced repition (sm-2, ebisu)
 import shelve, os, random, time
 
 def startNewQuiz():
@@ -44,10 +39,6 @@ def clear():
 #random praise (From Ireland, just for the craic)     
 def randPraise():
     return ["Go on you good thing!","You're class!", "You legend", "You sly dog", "Sound as a pound","Sure now ye're just showing off","Savage","Grand job","You lej","You are some man"][random.randint(0,9)]
-
-#Hmmm, have to think about this one carefully...
-#def randomSlur
-
 
 # 3. a.
 # Note: if once all terms are correct two in a row for that particular category then we proceed to the next round.
